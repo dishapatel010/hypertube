@@ -101,6 +101,7 @@ const Login = () =>
 					<img src={image} width="300px" height="400px" className='rounded-image' alt='girl with popcorn'/>
 				</div>
 				<div className="basic-form p-5">
+					<h5 style={{color: 'red'}}>for quick login:<br />username: admin1<br />password: Aa123123123</h5>
 					<form onSubmit={handleSubmit}>
 						<label className="ml-2 mb-1">Username</label>
 						<input
@@ -132,6 +133,7 @@ const Login = () =>
 							<button type="submit"><i className="fas fa-key color-black100"></i> Log In</button>
 						</div>
 					</form>
+					<h3 style={{color: 'red'}}>OAUTH LOGINS ARE CURRENTLY NOT IN USE</h3>
 					<div className="center mt-2"><a href="https://api.intra.42.fr/oauth/authorize?client_id=2d02a773dfbb227ded338c162245907ac4e2fa874a5e24a5e421aca1177cacab&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Flogin&response_type=code">Log in via 42</a></div>
 					<div className="center"><a href="https://github.com/login/oauth/authorize?client_id=06dd042c7ba940906e5d&redirect_uri=http://localhost:3000/github/login">Log in via Github</a></div>
 					<div className="center mt-4">Don't have an account? <Link to='/register'>Register</Link></div>

@@ -279,7 +279,7 @@ const Register = () =>
 								<button type="submit"><i className="fas fa-edit color-black"></i> Register</button>
 							</div>
 						</form>
-
+						<h3 style={{color: 'red'}}>OAUTH LOGINS ARE CURRENTLY NOT IN USE</h3>
 						<div className="center mt-2">
 							<a href='https://api.intra.42.fr/oauth/authorize?client_id=2d02a773dfbb227ded338c162245907ac4e2fa874a5e24a5e421aca1177cacab&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Fregister&response_type=code'>Register via 42</a>
 						</div>
