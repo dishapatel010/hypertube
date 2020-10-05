@@ -16,6 +16,8 @@ router.post('/register', async (req, res, next) => {
     else
       return res.status(201).json(true);
   } catch(err) {
+    console.log("errorissa ollaan")
+    console.log(err);
     Logger.error(err);
     if (!err || !err.errors)
       return res.status(200).json({message: 'invalid data'});
