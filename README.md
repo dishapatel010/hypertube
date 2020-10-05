@@ -1,6 +1,9 @@
-# hypertube
+# Hypertube
 
-`koodia` jees
+## Installation
+
+clone repo and run `npm run install-all` and `npm run dev` in root. Front will run in port 3000 and back in 5000.
+
 
 
 
