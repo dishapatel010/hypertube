@@ -14,6 +14,7 @@ You can run the application locally by cloning the repo and run `npm run install
 
 The user can download films to the server via torrents and start watching them as soon, as there is a playable buffer. The application searches for subtitles and offers primarily atleast the language that is chosen in the settings.
 
+<br/><br/><br/>
 
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3fwpWa4NegXy01PzvssRKYMiNnTtdg1P9UdGPupXgki7JisxLKrnw_OoTrCj60ErmQPS5SNxPXKAGh937XD_Me0PWVh2l5HFZFodWr5pczca2mydDzt_gKGGw8NxsF7FBbMHJDUY6rY_PcQxlkE_jOh=w2638-h2012-no?authuser=0" width="60%">
 Login with admin1/Aa123123123 or create own account with email verification. Oauth is not running for security reasons (the oauth secret tokens would have been in the repo..).
